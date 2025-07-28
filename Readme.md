@@ -21,7 +21,7 @@ Login to **AWS** console and in _search_ bar search S3 , then open S3 console.
 * And now we have to add the folder which has also data of our webapp, so go back to the upload page and click on `add folder` select folder of our webapp and then select open and then scroll down add click on`upload` to add folder in the S3 bucket, as given
 ![alt text](<image/Screenshot 2025-06-30 212250.png>)
 
-### Step.3) Give Permissios for public access
+### Step.3) Give Permissions for public access
 * Go to the bucket where we can see the Objects which we can added to the Bucket , On that page we can see ***Permission*** option , Click on that
 * After clicking we can see some Configuration in that , ` Block Public access` is `on` ,we have to ***Disable*** it for Public acess 
 * Click on that `Edit` and ***remove the Blue tick*** and click on `save changes`
@@ -36,7 +36,7 @@ Login to **AWS** console and in _search_ bar search S3 , then open S3 console.
 * In Object Ownership click on `Bucket owner perferred` -for full control access of owner on bucket and Second is Object writer  in that object writer remains the object owner
 * after all configuration CLick on ` save changes  `
  ![alt text](<image/Screenshot 2025-06-30 212451.png>)
- ### Step.5) Make publick using ACL
+ ### Step.5) Make public using ACL
  * After making object ownership , go to the Bucket
  * Select all the **Objects** which we added to bucket
  * Click on `Actions` then 
